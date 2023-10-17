@@ -1,0 +1,210 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: Poppins , Roboto, sans-serif; 
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+      }
+.cv-container 
+    {
+    position : relative;
+    width : 100%; 
+    max-width : 1000px;
+    min-height : 1200px; 
+    margin: 50px;
+    background : #fff; 
+    display : grid;
+    grid-template-columns: 1.2fr 2fr ; 
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+    }
+
+.cv-container .left-column
+    {
+    position : relative;
+    background : #fff; 
+    padding: 5px;
+    }
+.Profiltext 
+{
+    position : relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px; 
+    border-bottom: 1px solid rgba(52, 53, 54, 0.671) 
+}
+.Profiltext .image
+{
+    position : relative
+    width : 200px;
+    height : 200px; 
+    border-radius : 50%; 
+    overflow : hidden;
+}
+
+.Profiltext h2 
+{
+    color: #545c58;
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align : center; 
+    font-weight : 600;
+    line-height : 1.4em ;
+}
+
+.Profiltext h2 span 
+{
+    font-size : 0.8em;
+    font-weight : 300;
+}
+
+.contactInfo 
+    {padding-top: 30px;}
+.title
+{
+    color : #545c58; 
+    text-transform: uppercase;
+    font-weight : 1000;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.contactInfo  ul 
+{
+    position : relative
+}
+.contactInfo  ul li 
+{
+    position : relative;
+    list-style: none;
+    margin: 10px 0;
+    margin-left: 30px;
+    cursor : pointer;
+}
+.contactInfo  ul li .icon 
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #b2ecd1ea ;
+
+}
+.contactInfo  ul li span 
+    {color : #383f3b; 
+    font-weight: 300;
+}
+
+.Compétences
+    {padding-top: 15px;}
+.title1 
+{
+    color : #232523ea; 
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+
+}
+.Compétences  ul 
+    {position : relative;}
+.Compétences  ul li 
+    {position : relative;
+    margin-left: 50px;
+    margin-top: 5px;}
+.text2
+    {color : #383f3b; 
+    font-weight: 300;}
+.Langues
+    {padding-top: 15px;}
+.Langues ul 
+    {position : relative}
+.Langues ul li 
+{   position : relative;
+    margin-left: 50px;
+    color : #383f3b; 
+    font-weight: 300;
+}
+.Langues ul li span 
+{
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.cv-container .right-column
+{
+    position : relative;
+    background : #cdf0df80; 
+    padding: 40px;
+}
+.cv-container .Presentation
+{
+    margin-bottom : 20px;
+}
+.Presentation: :last-child
+{   margin-bottom : 0px;}
+.Presentation .title2 
+{
+    color :rgba(7, 133, 123, 0.842);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #383f3b;
+    text-align: justify;
+}
+.Presentation .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+.Presentation .box .years
+{
+    min-width: 150px;
+}
+.Presentation .box .years h5
+{
+    color:#383f3ba4;
+    font-weight: 1000;
+}
+.Presentation .box .text h4 
+{
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.Presentation span
+{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Presentation  ul 
+    {position : relative;}
+.Presentation  ul li 
+    {position : relative;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: justify;
+}
+.Presentation p span
+{
+    color:rgba(0, 0, 0, 0.877);
+    font-size: 16px;
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+  }
